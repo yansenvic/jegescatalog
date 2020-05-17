@@ -1,0 +1,139 @@
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p, div, img {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	font-family: verdana,sans-serif;
+	color:black;
+	z-index: 0;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.container {
+	padding: 0px 5%;
+}
+
+.top {
+	background-image: url("img/image-1.jpg");
+	background-size: contain;
+	background-repeat: repeat;
+	opacity: 0.7;
+}
+
+header h1 {
+	text-align: center;
+	font-size: 3em;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	text-shadow: 3px 0px white, -3px 0px white, 0px 3px white, 0px -3px white;
+}
+
+.nav-bar{
+	  position: -webkit-sticky;
+	  position: sticky;
+	  top: 0;
+}
+
+.nav-bar ul {
+	list-style-type: none;
+	text-align: center;
+	text-decoration: none;
+	background-color: rgba(225, 177, 44,1.0);
+	margin-bottom: 20px;
+}
+
+.nav-bar ul li{
+	display: inline-block;
+}
+
+.nav-bar ul li a {
+	text-decoration: none;
+	color:white;
+	opacity: 0.7;
+	display: inline-block;
+	padding: 15px 5px;
+}
+
+.nav-bar ul li a:hover {
+	opacity: 1.0;
+	background-color: rgba(47, 53, 66,1.0);
+}
+
+.nav-bar ul li a:active {
+	opacity: 1.0;
+	background-color: rgba(47, 53, 66,1.0);
+}
+
+.nav-bar ul li+li:before {
+  color: white;
+  content: "/\00a0";
+}
+
+.container .product h2{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.container .product .product-wrap{
+	padding-top: 15px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.container .product .row {
+	display: flex;
+	padding-bottom: 20px;
+}
+
+.container .product .row .column {
+	width: 25%;
+	background-color: white;
+	margin: 10px;
+	color: white;
+	text-align: center;
+}
+
+.column img{
+	height: 250px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.column p{
+	color: black;
+	margin-bottom: 10px;
+}
+
+.button{
+	text-decoration: none;
+	border: 1px solid rgba(140, 122, 230,1.0);
+	background-color: white;
+	font-size: 14px;
+	padding: 10px 25px;
+	color: black;
+	border-radius: 5px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.button:hover{
+	background-color: rgba(140, 122, 230,1.0);
+	color:white;
+	cursor: pointer;
+	transition: .5s;
+}
+
+footer{
+	background-color: rgba(225, 177, 44,1.0);
+	height: 50px;
+	padding: 0 6%;
+}
+
+
+/*
+style="border:1px solid black;"
+*/
